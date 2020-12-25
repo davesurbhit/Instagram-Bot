@@ -56,7 +56,7 @@ def send_msgs():
         sleep(3)
         text_msg = driver.find_element_by_xpath("/html/body/div[1]/section/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div/div[2]/textarea")
         sleep(3)
-        msg = #Enter the message that you want to send
+        msg = #Enter the message that you want to send.
         sleep(3)
         text_msg.send_keys(msg)
         sleep(3)
